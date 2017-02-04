@@ -1,2 +1,2 @@
 # Trump-Count
-A twitter bot that announced Trump's most tweeted words
+A twitter bot that announces Trump's most tweeted words
