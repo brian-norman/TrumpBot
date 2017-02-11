@@ -5,11 +5,12 @@ import json
 from api import getAPI
 
 REQUEST_DELAY = 5
-MAX_REQUESTS = 15
+MAX_REQUESTS = 5
 
 def main():
     try:
-        arg = argv[1]
+        #arg = argv[1]
+        arg = "realDonaldTrump"
         api = getAPI()
         tweetResults = []
 
