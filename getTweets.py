@@ -5,7 +5,7 @@ import json
 from api import getAPI
 
 REQUEST_DELAY = 5
-MAX_REQUESTS = 5
+MAX_REQUESTS = 1
 
 def main():
     try:
