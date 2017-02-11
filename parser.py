@@ -9,7 +9,7 @@ filter_words = ['THE', 'TO', 'A', 'OF', 'IN', 'T', 'I', 'S', 'HTTPS', 'CO', 'FOR
 				'OUR', 'SO', 'BY', 'AMP', 'THIS', 'ME', 'JUST', 'HE', 'NO', 'OR', 'BUT',
 				'SHOULD', 'HAS', 'DO', 'WHO', 'WHAT', 'AS', 'C', 'BEEN', 'WERE', 'AN', 'D',
 				'SAID', 'ABOUT', 'DID', 'MANY', 'INTO', 'WHEN', 'IF', 'ITS', 'THEIR', 'RT',
-				'AM', 'THAN', 'HAD', '00', 'M']
+				'AM', 'THAN', 'HAD', '00', 'M', 'MORE']
 
 with open('realDonaldTrumpTweets') as json_data:
 	d = json.load(json_data)
@@ -25,4 +25,5 @@ word_counts = Counter(cap_words) #Counts number of times word appears
 for word in filter_words:
 	word_counts[word] = 0
 
-print(word_counts.most_common(30))
+list_of_words = word_counts.most_common(10)
+
