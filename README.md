@@ -3,7 +3,7 @@ A twitter bot that announces Trump's most tweeted words
 
 Results: https://twitter.com/SokasukiBot
 
-Usage: Run tweetgenerator.py and it will do all the work
+Usage: Run 'python3 tweetgenerator.py' and it will do all the work
 
 ## List of words I'm removing from the count:
 
