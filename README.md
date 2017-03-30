@@ -5,7 +5,7 @@ Results: https://twitter.com/SokasukiBot
 
 Usage: Run tweetgenerator.py and it will do all the work
 
-##List of words I'm removing from the count:
+## List of words I'm removing from the count:
 
 filter_words = ['THE', 'TO', 'A', 'OF', 'IN', 'T', 'I', 'S', 'HTTPS', 'CO', 'FOR', 'AND',
 				'IS', 'IT', 'WILL', 'WITH', 'NOT', 'ON', 'BE', 'THAT', 'ARE', 'AT', 'YOU',
