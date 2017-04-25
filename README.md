@@ -1,5 +1,5 @@
-# Trump-Count
-A twitter bot that announces Trump's most tweeted words
+# Tweet-Count
+A twitter bot that announces a user's most tweeted words
 
 Results: https://twitter.com/SokasukiBot
 
