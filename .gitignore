@@ -1,1 +1,5 @@
 twitterKeys.py
+.DS_Store
+.pyc
+realDonaldTrumpTweets
+uniqueTweets
