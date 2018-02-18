@@ -5,7 +5,7 @@ import json
 from api import getAPI
 
 REQUEST_DELAY = 5
-MAX_REQUESTS = 60 # multiply this number by 20 and thats the number of tweets in the past
+MAX_REQUESTS = 20 # multiply this number by 20 and thats the number of tweets in the past
 
 def main():
     try:

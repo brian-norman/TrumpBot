@@ -19,7 +19,7 @@ with open('realDonaldTrumpTweets') as json_data:
 		for word in words:
 			total_words.append(word)
 
-cap_words = [word.upper() for word in total_words] #Capitalizes all words
+cap_words = [word.upper() for word in total_words] #Capitalizes all worsds
 word_counts = Counter(cap_words) #Counts number of times word appears
 
 for word in filter_words:
