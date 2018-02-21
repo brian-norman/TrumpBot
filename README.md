@@ -1,9 +1,8 @@
 # Tweet-Count
-A twitter bot that announces a user's most tweeted words
+A [twitter bot](https://twitter.com/SokasukiBot) that announces a user's most tweeted words.
 
-Results: https://twitter.com/SokasukiBot
-
-Usage: Run 'python3 tweetgenerator.py' and it will do all the work
+## Usage
+1. Run 'python3 tweetgenerator.py' and it will do all the work
 
 ## List of words I'm removing from the count:
 
